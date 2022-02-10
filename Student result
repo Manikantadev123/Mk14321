@@ -1,0 +1,21 @@
+telugu=int(input('enter tel marks'))
+hindi=int(input('enter hin marks'))
+english=int(input('enter eng marks'))
+maths=int(input('enter maths marks'))
+science=int(input('enter sci marks'))
+social=int(input('enter soc marks'))
+if telugu>=38 and hindi>=38 and english>=38 and maths>=38 and science>=38 and social>=38 :
+    print("pass")
+else:
+    print("fail")
+
+
+   Output
+
+enter tel marks 56
+enter hin marks 78
+enter eng marks 56
+enter maths marks 78
+enter sci marks 99
+enter soc marks 99
+Pass
