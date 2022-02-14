@@ -1,0 +1,12 @@
+n=int(input("enter a number:"))
+tot=0
+while n>0:
+    digit=n%10
+    tot=tot+digit
+    n=n//10
+print("total sum of digits is:",tot)
+
+     output
+ 
+enter a number:123415
+total sum of digits is :16
