@@ -1,0 +1,15 @@
+x=[2,1,2,8,8,4,7,5,9]
+l=[]
+for i in x:
+    l.append(x.count(i))
+for j in range(len(x)):
+    if l[j]%2!=0:
+        print(x[j])
+
+Output
+
+1
+4
+5
+7
+9
