@@ -1,0 +1,16 @@
+l=input().split()
+x=[]
+for i in l:
+    x.append(int(i))
+t=[]
+for j in x:
+    if j not in t:
+        t.append(j)
+print(len(x)-len(t))
+
+
+
+Output
+
+1 2 4 1 5 4 6 2
+3
