@@ -1,0 +1,34 @@
+emp={}
+n=int(input('enter no.of employees:'))
+for i in range(1,n+1):
+       l=[]
+       name=input('enter emp name:')
+       l.append(name)
+       role=input('enter emp design:')
+       l.append(role)
+       salary=input('enter emp sal:')
+       l.append(salary)
+       phno=int(input('enter phno:'))
+       l.append(phno)
+       emp[i]=l
+print(emp)
+
+Output:
+enter no.of employees:
+2
+enter emp name:
+vamsi
+enter emp design:
+analyst
+enter emp sal:
+30000
+enter phno:
+6302231301
+enter emp name:
+mahindra
+enter emp design:
+software
+enter emp sal:
+100000
+enter phno:9087564321
+
